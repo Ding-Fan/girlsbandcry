@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tamagui/next-plugin": "^1.98.1",
+    "@tamagui/next-theme": "^1.98.1",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "react-native": "^0.74.1",
+    "tamagui": "^1.98.1"
   },
   "devDependencies": {
     "typescript": "^5",
