@@ -4,6 +4,10 @@ import { NextTamaguiProvider } from "./NextTamaguiProvider";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+if (process.env.NODE_ENV === "production") {
+  require("../../public/tamagui.css");
+}
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({

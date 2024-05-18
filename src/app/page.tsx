@@ -3,10 +3,6 @@
 import { Button, Image } from "tamagui";
 import BaseImage from "./components/BaseImage";
 
-if (process.env.NODE_ENV === "production") {
-  require("../public/tamagui.css");
-}
-
 export default function Home() {
   const images = [
     "DJI_20240425200310_0006_D.JPG",
